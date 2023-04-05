@@ -14,18 +14,15 @@
 }
 
 .post {
-
-    p:nth-child(1) {
+    flex-direction: column;
+    min-height: 100%;
+    @include centering;
+    p{
         text-align: center;
         padding: 0;
         margin: 0;
         @include subheader;
         @include subtextcolor
-    }
-
-    p:nth-child(2) {
-        color: aliceblue;
-        padding: 0 .2rem;
     }
 
    a {
