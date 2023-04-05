@@ -1,0 +1,18 @@
+/* Global styles */
+@use '../abstracts/' as *;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font-style;
+}
+
+h1 {
+    font-size: $font-header;
+    
+}
+
+a {
+    text-decoration: none;
+}

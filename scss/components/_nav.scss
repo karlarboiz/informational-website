@@ -1,0 +1,9 @@
+@use '../util/mixin' as *;
+
+nav {
+    @include gradient;
+}
+
+.navbar-brand {
+    @include subtextcolor
+}

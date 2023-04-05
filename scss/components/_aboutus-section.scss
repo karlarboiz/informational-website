@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+.about {
+    max-width: 45rem;
+    min-height: 25rem;
+    margin: 0 auto;
+
+}
+
+.about h1, .about p {
+    padding: .5rem .25rem;
+}
+
+.about p {
+    font-size: $font-commontext;
+}

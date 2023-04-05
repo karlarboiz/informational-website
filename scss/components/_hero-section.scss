@@ -1,0 +1,26 @@
+@use '../util/mixin' as *;
+
+
+.hero {
+  max-width: 100%;
+  @include gradient;
+  
+    &-container{
+        min-height: 35rem;
+        max-width: 60rem;
+        margin: 0 auto;
+        text-align: center;
+        @include centering;
+        
+        h1 {
+            @include headerfontweight;
+            @include headertextcolor;
+        }
+
+        p {
+            max-width: 75%;
+            margin: 1.25rem auto;
+            @include contenttext;
+        }
+    }
+}

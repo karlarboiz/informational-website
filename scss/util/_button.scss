@@ -1,0 +1,10 @@
+@use '../abstracts/font-size' as *;
+@use '../util/mixin' as *;
+.btn-link {
+    font-size: $font-button;
+    max-width: 5rem;
+    padding: .45rem 1.20rem;
+    text-decoration: none;
+    border-radius: 1.2rem;
+    @include button;
+}

@@ -1,0 +1,38 @@
+@use '../custom' as *;
+@use '../abstracts/index' as *;
+@mixin gradient {
+    background: linear-gradient(to right, rgba($dark, 0.80), rgba($dark, 0.75));
+}
+
+@mixin subtextcolor {
+    color: $primary;
+    
+}
+
+@mixin subheader {
+    font-weight: $subheader-weight;
+    font-size: $font-subheader;
+}
+
+@mixin centering {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin headertextcolor {
+    color: $primary;
+}
+
+@mixin headerfontweight {
+    font-weight: $header-weight;
+}
+
+@mixin contenttext {
+    font-size: $font-commontext;
+    color: aliceblue;
+}
+
+@mixin button {
+    background-color: rgba($dark, 0.75);
+}
