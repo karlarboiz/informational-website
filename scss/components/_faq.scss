@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+
+.faq {
+    min-height: 20rem;
+}
+
+.accordion-button {
+    font-size: $font-subheader;
+    font-weight: $subheader-weight;
+}

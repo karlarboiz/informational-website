@@ -1,0 +1,9 @@
+@use '../util/mixin' as *;
+
+.footer {
+    @include backgroundcolor;
+}
+
+.contact-box__info--subtitle {
+    color: aliceblue;
+}

@@ -10777,6 +10777,10 @@ nav {
   color: #EDF1D6;
 }
 
+.nav-link {
+  color: aliceblue;
+}
+
 .hero {
   max-width: 100%;
   background: linear-gradient(to right, rgba(64, 81, 59, 0.8), rgba(64, 81, 59, 0.75));
@@ -10824,6 +10828,10 @@ nav {
   font-size: 1.15rem;
 }
 
+.forum {
+  min-height: 30rem;
+}
+
 .forum i {
   font-size: 2rem;
 }
@@ -10858,6 +10866,23 @@ nav {
   border-radius: 1.25rem;
 }
 
+.faq {
+  min-height: 20rem;
+}
+
+.accordion-button {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: rgba(64, 81, 59, 0.8);
+}
+
+.contact-box__info--subtitle {
+  color: aliceblue;
+}
+
 /* Global styles */
 * {
   box-sizing: border-box;
@@ -10868,6 +10893,7 @@ nav {
 
 h1 {
   font-size: 3rem;
+  text-align: center;
 }
 
 a {
