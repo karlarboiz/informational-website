@@ -10783,6 +10783,7 @@ nav {
 
 .hero {
   max-width: 100%;
+  min-height: 35rem;
   background: linear-gradient(to right, rgba(64, 81, 59, 0.8), rgba(64, 81, 59, 0.75));
 }
 .hero-container {
@@ -10829,7 +10830,18 @@ nav {
 }
 
 .forum {
-  min-height: 30rem;
+  min-height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.forum-header h5 {
+  font-weight: 600;
+}
+.forum a {
+  padding: 10px 20px;
+  background-color: rgba(64, 81, 59, 0.8);
 }
 
 .forum i {
@@ -10879,7 +10891,7 @@ nav {
 }
 
 .footer {
-  background-color: rgba(64, 81, 59, 0.8);
+  background: linear-gradient(to right, rgba(64, 81, 59, 0.8), rgba(64, 81, 59, 0.75));
 }
 
 .contact-box__info--subtitle {

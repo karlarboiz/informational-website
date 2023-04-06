@@ -40,3 +40,8 @@
 @mixin backgroundcolor {
     background-color: rgba($dark, 0.80);
 }
+
+@mixin btnlink {
+    padding: 10px 20px;
+    background-color: rgba($dark, 0.80);
+}

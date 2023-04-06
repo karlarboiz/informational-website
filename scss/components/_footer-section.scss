@@ -1,7 +1,7 @@
 @use '../util/mixin' as *;
 
 .footer {
-    @include backgroundcolor;
+    @include gradient;
 }
 
 .contact-box__info--subtitle {

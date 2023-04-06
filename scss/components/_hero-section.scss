@@ -3,6 +3,7 @@
 
 .hero {
   max-width: 100%;
+  min-height: 35rem;
   @include gradient;
   
     &-container{
