@@ -10898,6 +10898,14 @@ nav {
   color: aliceblue;
 }
 
+.contact-form {
+  min-height: 35rem;
+}
+.contact-form textarea {
+  min-height: 100%;
+  resize: none;
+}
+
 /* Global styles */
 * {
   box-sizing: border-box;
